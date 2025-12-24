@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
       />
       <motion.div
         animate={{
-          scale: [1, 1.1, 1],
+          scale: [1, 1, 1],
           opacity: [0.3, 0.5, 0.3],
           x: [0, -30, 0],
           y: [0, 50, 0],
@@ -43,13 +43,13 @@ const Hero: React.FC = () => {
         className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-200/40 blur-[120px] rounded-full pointer-events-none translate-y-1/2"
       />
 
-      <div className="max-w-6xl mx-auto space-y-12 z-10 flex flex-col items-center">
+      <div className="max-w-6xl mx-auto space-y-12 z-10 flex flex-col items-center pointer-events-none">
         {/* Large Brand Logo - Central Focus */}
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="mb-4"
+          className="mb-4 pointer-events-auto"
         >
           <img src={trioLogo} alt="Trio Logo" className="h-24 md:h-40" />
         </motion.div>
@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-            className="relative group cursor-default inline-block py-4"
+            className="relative group cursor-default inline-block py-4 pointer-events-auto"
           >
             <h3 className="text-3xl md:text-6xl font-light tracking-[0.2em] text-grey-400 uppercase transition-all duration-500 group-hover:text-grey-900 group-hover:tracking-[0.25em] relative">
               Gateway to <span className="font-bold italic">Web3</span>
@@ -74,7 +74,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-            className="max-w-2xl mx-auto text-grey-500 text-xl md:text-2xl font-medium leading-relaxed"
+            className="max-w-2xl mx-auto text-grey-500 text-xl md:text-2xl font-medium leading-relaxed pointer-events-auto"
           >
             Transforming business logic into blockchain reality.{" "}
           </motion.p>
@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-          className="flex flex-col sm:flex-row gap-6 pt-10"
+          className="flex flex-col sm:flex-row gap-6 pt-10 pointer-events-auto"
         >
           <button className="bg-grey-900 text-white font-bold py-5 px-14 rounded-full text-lg shadow-2xl hover:bg-black transition-all hover:-translate-y-1 active:scale-95">
             Get Started
