@@ -1,0 +1,9 @@
+
+{
+  "name": "TriO Blockchain Labs",
+  "description": "A high-performance Web3 infrastructure and consulting landing page featuring institutional-grade blockchain solutions and professional Web3 services.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
