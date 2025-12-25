@@ -6,10 +6,10 @@ const Industries: React.FC = () => {
   return (
     <section className="py-24 px-6 border-y border-grey-100" id="industries">
       <div className="max-w-7xl mx-auto">
-        <div className="mb-12">
+        <div className="mb-12 text-center">
           <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Our Expertise</h3>
-          <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
-          <p className="text-grey-600 mt-6 max-w-3xl text-lg">Tailored blockchain implementations across high-impact sectors.</p>
+          <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto"></div>
+          <p className="text-grey-600 mt-6 max-w-3xl mx-auto text-lg">Tailored blockchain implementations across high-impact sectors.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {INDUSTRIES.map((ind) => (

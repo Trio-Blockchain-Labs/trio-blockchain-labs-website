@@ -88,9 +88,9 @@ const Team: React.FC = () => {
 
   return (
     <section className="py-24 px-6 overflow-hidden" id="team">
-      <div className="max-w-7xl mx-auto mb-16">
+      <div className="max-w-7xl mx-auto mb-16 text-center">
         <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Meet Our Team</h3>
-        <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
+        <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto"></div>
       </div>
       
       <div 

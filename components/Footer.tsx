@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-grey-800/50 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-grey-500">
-          <p>© 2024 Trio Blockchain Labs. All rights reserved.</p>
+          <p>© 2025 TriO Blockchain Labs. All rights reserved.</p>
           <div className="flex gap-10">
             <a className="hover:text-purple-400 transition-colors" href="#">Privacy Policy</a>
             <a className="hover:text-purple-400 transition-colors" href="#">Terms of Service</a>

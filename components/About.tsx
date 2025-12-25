@@ -8,20 +8,20 @@ const About: React.FC = () => {
     <section className="py-24 px-6" id="about">
       <div className="max-w-7xl mx-auto">
         {/* Introductory Section */}
-        <div className="max-w-3xl mb-24">
+        <div className="max-w-3xl mx-auto mb-24 text-center">
           <h3 className="text-4xl md:text-5xl font-bold text-grey-900 leading-tight mb-8">
             Bridging the gap between institutions and blockchain technology.
           </h3>
           <p className="text-grey-600 leading-relaxed text-lg">
-            Trio Blockchain Labs is a technology company dedicated to building secure, scalable, and regulatory-compliant blockchain applications. We empower enterprises to leverage Web3 innovations without compromising on security or efficiency.
+            TriO Blockchain Labs is a technology company dedicated to building secure, scalable, and regulatory-compliant blockchain applications. We empower enterprises to leverage Web3 innovations without compromising on security or efficiency.
           </p>
         </div>
 
         {/* Products Section */}
         <div id="solutions">
-          <div className="mb-12">
+          <div className="mb-12 text-center">
             <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Our Products</h3>
-            <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
+            <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto"></div>
           </div>
 
           <div className="space-y-16">
@@ -45,7 +45,7 @@ const About: React.FC = () => {
                     Trilema <span className="opacity-60 font-light">WaaS</span>
                   </h4>
                   <p className="text-grey-400 text-xl leading-relaxed font-medium">
-                    Next-generation Wallet-as-a-Service infrastructure. We provide the architectural backbone for secure digital asset management using cutting-edge MPC (Multi-Party Computation) technology.
+                    Next-generation Wallet-as-a-Service infrastructure built on ERC-4337 standards. We provide a robust self-custodial wallet infrastructure that enables secure, user-controlled digital asset management with seamless account abstraction capabilities. 
                   </p>
                 </div>
                 
@@ -53,7 +53,8 @@ const About: React.FC = () => {
                   href="https://trilema.io/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center bg-grey-900 text-white hover:bg-black font-bold py-4 px-10 rounded-full transition-all shadow-xl hover:shadow-black/20 group active:scale-95"
+                  className="inline-flex items-center hover:bg-black font-bold py-4 px-10 rounded-full transition-all shadow-xl hover:shadow-black/20 group active:scale-95"
+                  style={{ backgroundColor: 'white', color: 'rgb(116, 170, 78)', fontWeight: 'bold', border: '1px solid rgba(192, 244, 155, 1)' }}
                 >
                   Explore trilema.io
                   <span className="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>

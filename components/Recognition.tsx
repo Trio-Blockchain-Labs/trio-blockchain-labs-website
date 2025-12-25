@@ -10,18 +10,21 @@ const Recognition: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Events Section */}
         <div className="mb-24">
-          <div className="flex flex-col md:flex-row justify-between items-end mb-12">
-            <div>
-              <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Events</h3>
-              <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
-            </div>
-            <div className="flex gap-3 mt-6 md:mt-0">
-              <button className="w-12 h-12 border border-grey-200 rounded-full flex items-center justify-center hover:bg-purple-600 hover:border-purple-600 hover:text-white transition-all">
-                <span className="material-symbols-outlined">arrow_back</span>
-              </button>
-              <button className="w-12 h-12 border border-grey-200 rounded-full flex items-center justify-center hover:bg-purple-600 hover:border-purple-600 hover:text-white transition-all">
-                <span className="material-symbols-outlined">arrow_forward</span>
-              </button>
+          <div className="relative mb-12">
+            <div className="flex flex-col md:grid md:grid-cols-3 items-end gap-6">
+              <div className="hidden md:block"></div>
+              <div className="text-center">
+                <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Events</h3>
+                <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto"></div>
+              </div>
+              <div className="flex gap-3 justify-center md:justify-end">
+                <button className="w-12 h-12 border border-grey-200 rounded-full flex items-center justify-center hover:bg-purple-600 hover:border-purple-600 hover:text-white transition-all">
+                  <span className="material-symbols-outlined">arrow_back</span>
+                </button>
+                <button className="w-12 h-12 border border-grey-200 rounded-full flex items-center justify-center hover:bg-purple-600 hover:border-purple-600 hover:text-white transition-all">
+                  <span className="material-symbols-outlined">arrow_forward</span>
+                </button>
+              </div>
             </div>
           </div>
           
@@ -56,9 +59,9 @@ const Recognition: React.FC = () => {
 
         {/* Awards & Milestones Section */}
         <div>
-          <div className="mb-16">
+          <div className="mb-16 text-center">
             <h3 className="text-3xl md:text-4xl font-extrabold text-grey-900 tracking-tight">Achievements & Milestones</h3>
-            <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
+            <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto"></div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">

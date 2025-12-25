@@ -14,9 +14,9 @@ const Blog: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 relative z-10">
             {/* Text Content */}
             <div className="flex flex-col h-full">
-              <div className="mb-6">
+              <div className="mb-6 text-center lg:text-left">
                 <h3 className="text-3xl md:text-4xl font-extrabold text-white tracking-tight">Follow our Blog</h3>
-                <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full"></div>
+                <div className="w-20 h-1.5 bg-purple-600 mt-4 rounded-full mx-auto lg:mx-0"></div>
               </div>
               
               <div className="flex-1 flex flex-col justify-center space-y-8">
