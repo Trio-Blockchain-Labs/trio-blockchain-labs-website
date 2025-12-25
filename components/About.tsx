@@ -13,7 +13,7 @@ const About: React.FC = () => {
             Bridging the gap between institutions and blockchain technology.
           </h3>
           <p className="text-grey-600 leading-relaxed text-lg">
-            Trio Blockchain Labs is a technology company dedicated to building secure, scalable, and regulatory-compliant blockchain applications. We empower enterprises to leverage Web3 innovations without compromising on security or efficiency.
+            TriO Blockchain Labs is a technology company dedicated to building secure, scalable, and regulatory-compliant blockchain applications. We empower enterprises to leverage Web3 innovations without compromising on security or efficiency.
           </p>
         </div>
 
@@ -45,7 +45,8 @@ const About: React.FC = () => {
                     Trilema <span className="opacity-60 font-light">WaaS</span>
                   </h4>
                   <p className="text-grey-400 text-xl leading-relaxed font-medium">
-                    Next-generation Wallet-as-a-Service infrastructure. We provide the architectural backbone for secure digital asset management using cutting-edge MPC (Multi-Party Computation) technology.
+                    Next-generation Wallet-as-a-Service infrastructure. Trilema WaaS is a self-custodial wallet infrastructure powered by ERC-4337 account abstraction, enabling fast, secure, and gasless smart wallet experiences.
+
                   </p>
                 </div>
                 
@@ -70,7 +71,7 @@ const About: React.FC = () => {
                 <div>
                   <h4 className="text-4xl md:text-5xl font-black tracking-tighter mb-4">Whitepaper IQ</h4>
                   <p className="text-purple-100/80 text-xl leading-relaxed">
-                    The industry's first AI-driven due diligence platform. We transform complex technical whitepapers and tokenomics data into actionable intelligence for institutional investors and protocol builders.
+                  The industry's first AI-driven due diligence platform tailored to exchange listing workflows. We transform complex whitepapers and tokenomics into audit-ready analyses, highlighting risks, governance quality, and sustainability so your team can make defensible listing decisions.
                   </p>
                 </div>
                 
