@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
-import tahsinv2Image from '../assets/tahsinv2.png';
+import tahsinv2Image from '../assets/tahsin.png';
 import fatihimage from '../assets/fatih.png';
 import sinemimage from '../assets/sinem.png';
 import sudeimage from '../assets/sude.png';
@@ -15,23 +15,23 @@ const TEAM = [
     name: "Tahsin",
     role: "Co-founder & CEO",
     image: tahsinv2Image,
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/tahsin-b%C3%BCy%C3%BCkyavuz-trio-blockchain-labs/",
+    twitter: "https://x.com/tahsinizm42",
   },
   {
     id: 2,
     name: "Fatih Altınışık",
     role: "Software Engineer",
     image: fatihimage,
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/fatih-altinisik/",
+    twitter: "https://x.com/fatihaltinisikk",
   },
   {
     id: 3,
     name: "Sinem Sevim",
     role: "Designer",
     image: sinemimage,
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/sinem-sevim/",
     twitter: "https://twitter.com",
   },
   {
@@ -39,15 +39,15 @@ const TEAM = [
     name: "Nisa Nur Keklik",
     role: "Project Manager",
     image: nisaimage,
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/nisa-nur-keklik-75384b206/",
     twitter: "https://x.com/nnurkeklik?s=11",
   },
   {
     id: 5,
     name: "Kerem Kaya",
-    role: "Front-end Developer",
+    role: "Front-End Developer",
     image: keremimage,
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/kerem-kaya-1574b0227/",
     twitter: "https://twitter.com",
   },
   {
@@ -55,8 +55,8 @@ const TEAM = [
     name: "Azra Ülkebaş",
     role: "Business Development",
     image: azraimage,
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/azra-%C3%BClkeba%C5%9F-02ab2a284/",
+    twitter: "https://x.com/UlkebasAzra",
   },
   {
     id: 7,

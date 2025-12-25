@@ -8,7 +8,7 @@ const About: React.FC = () => {
     <section className="py-24 px-6" id="about">
       <div className="max-w-7xl mx-auto">
         {/* Introductory Section */}
-        <div className="max-w-3xl mx-auto mb-24 text-center">
+        <div className="max-w-3xl mx-auto mb-24 text-center" id="intro">
           <h3 className="text-4xl md:text-5xl font-bold text-grey-900 leading-tight mb-8">
             Bridging the gap between institutions and blockchain technology.
           </h3>
@@ -62,12 +62,21 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            {/* Solution 2: Whitepaper IQ - Background #532C58, Text Left, Logo Right */}
+            {/* Solution 2: Whitepaper IQ - Background #532C58, Logo Left, Text Right */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center bg-[#532C58] text-white rounded-[2rem] p-8 lg:p-16 border border-white/5 hover:shadow-[0_20px_60px_-15px_rgba(83,44,88,0.4)] transition-all duration-500 overflow-hidden relative group">
               {/* Ambient Background Glows */}
-              <div className="absolute -top-24 -right-24 w-64 h-64 bg-purple-400/10 blur-[80px] rounded-full pointer-events-none group-hover:bg-purple-400/20 transition-colors"></div>
+              <div className="absolute -top-24 -left-24 w-64 h-64 bg-purple-400/10 blur-[80px] rounded-full pointer-events-none group-hover:bg-purple-400/20 transition-colors"></div>
 
-              <div className="lg:col-span-8 order-2 lg:order-1 space-y-8 relative z-10">
+              <div className="lg:col-span-5 flex justify-center lg:justify-start relative z-10">
+                <div className="relative">
+                  {/* Stylized Whitepaper IQ Logo */}
+                  <div className="flex items-center justify-center transform group-hover:rotate-3 transition-transform duration-500">
+                    <img src={wpiqLogo} alt="Whitepaper IQ Logo" className="w-40 md:w-64 drop-shadow-2xl" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:col-span-7 space-y-8 relative z-10">
                 <div>
                   <h4 className="text-4xl md:text-5xl font-black tracking-tighter mb-4">Whitepaper IQ</h4>
                   <p className="text-purple-100/80 text-xl leading-relaxed">
@@ -84,12 +93,6 @@ const About: React.FC = () => {
                   Explore Whitepaper IQ
                   <span className="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
                 </a>
-              </div>
-              
-              <div className="lg:col-span-4 order-1 lg:order-2 flex justify-center lg:justify-end relative z-10">
-                <div className="flex items-center justify-center transform group-hover:-rotate-3 transition-transform duration-500">
-                  <img src={wpiqLogo} alt="Whitepaper IQ Logo" className="w-40 md:w-64 drop-shadow-2xl" />
-                </div>
               </div>
             </div>
           </div>

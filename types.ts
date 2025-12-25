@@ -20,6 +20,16 @@ export interface Recognition {
   id: string;
 }
 
+export interface Event {
+  id: string;
+  title: string;
+  tag: string;
+  location: string;
+  image?: string;
+  detail: string;
+  images?: string[];
+}
+
 export interface TeamMember {
   name: string;
   role: string;

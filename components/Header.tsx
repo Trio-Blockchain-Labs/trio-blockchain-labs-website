@@ -21,7 +21,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
         </a>
 
         <nav className="hidden md:flex items-center gap-10">
-          {['About', 'Solutions', 'Industries', 'Team', 'Contact'].map((item) => (
+          {['About', 'Solutions', 'Industries', 'Team'].map((item) => (
             <a 
               key={item}
               href={`#${item.toLowerCase()}`}
@@ -33,9 +33,12 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <button className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white text-sm font-bold py-2.5 px-6 rounded-full transition-all duration-300 shadow-md shadow-purple-200 hover:shadow-lg active:scale-95">
+          <a 
+            href="#contact" 
+            className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white text-sm font-bold py-2.5 px-6 rounded-full transition-all duration-300 shadow-md shadow-purple-200 hover:shadow-lg active:scale-95"
+          >
             Contact Us
-          </button>
+          </a>
         </div>
 
         <button className="md:hidden text-grey-900">

@@ -1,5 +1,5 @@
 
-import { Solution, Industry, Recognition, TeamMember, BlogPost } from './types';
+import { Solution, Industry, Recognition, TeamMember, BlogPost, Event } from './types';
 
 export const SOLUTIONS: Solution[] = [
   {
@@ -133,5 +133,147 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Common Vulnerabilities in Smart Contracts',
     excerpt: 'A technical deep dive into reentrancy attacks and how formal verification can prevent catastrophic loss of funds.',
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800'
+  }
+];
+
+export const EVENTS: Event[] = [
+  {
+    id: '1',
+    title: 'Big Bang Startup Challenge',
+    tag: 'Award',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=1200',
+    detail: "En Değerli 50 Girişim. Türkiye'nin en büyük girişimcilik sahnesinde Trilema Wallet ile \"En Değerli 50 Girişim\" arasına girerek toplamda 2.350.000 TL değerinde ödül ve hibe desteği kazandık.",
+    images: [
+      'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&q=80&w=1200',
+      'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200'
+    ]
+  },
+  {
+    id: '2',
+    title: 'Webrazzi Summit',
+    tag: 'Summit',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Türkiye'nin lider teknoloji zirvesinde, finans kurumları ve Web2 şirketleri için geliştirdiğimiz yeni nesil self-custodial ve EIP-7702 uyumlu cüzdan altyapı vizyonumuzu paylaştık.",
+    images: []
+  },
+  {
+    id: '3',
+    title: 'Future Of Wallet Hackathon',
+    tag: 'Hackathon',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Teknik Liderlik & Partnerlik. Tether'in Türkiye'deki ilk resmi hackathon'unda, Bybit TR ve BTM İstanbul paydaşlığında teknik liderlik ve organizasyon partnerliğini üstlenerek 36 saatlik kesintisiz bir maratonu başarıyla tamamladık.",
+    images: []
+  },
+  {
+    id: '4',
+    title: 'Tokenized Assets Report',
+    tag: 'Launch',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "RWA Lansmanı. \"Tokenleştirilmiş Varlıkların Sınır Ötesi Hukuki Uyumu: Gayrimenkul Tokenizasyonu Vaka Analizi\" raporumuzu yayınlayarak, RWA ekosisteminin hukuki ve teknik altyapısını sektör profesyonelleriyle paylaştık.",
+    images: []
+  },
+  {
+    id: '5',
+    title: 'Konya Blockchain Hackathon',
+    tag: 'Hackathon',
+    location: 'Konya, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Kapsül Teknoloji ve Dalos Network iş birliğiyle düzenlenen bu dev organizasyonda, Anadolu'daki geliştirici ekosistemini Web3 dünyasına taşıyan projelere mentorluk ve jürilik desteği sağladık.",
+    images: []
+  },
+  {
+    id: '6',
+    title: 'Take Off Istanbul',
+    tag: 'Summit',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "BTM İstanbul çatısı altında yer aldığımız bu global zirvede, Trilema Wallet'ın kurumsal dijital varlık yönetimi çözümlerini uluslararası teknoloji ve inovasyon paydaşlarına sunduk.",
+    images: []
+  },
+  {
+    id: '7',
+    title: 'BTM Sahne XL',
+    tag: 'Event',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Supernova & Odyssey. BTM bünyesinde düzenlenen iki ayrı Sahne XL etkinliğinde, bankalar, ödeme kuruluşları ve yatırımcı ağlarıyla bir araya gelerek Trilema WaaS (Wallet as a Service) çözümümüzün kurumsal adaptasyon potansiyelini aktardık.",
+    images: []
+  },
+  {
+    id: '8',
+    title: 'Base Türkiye Workshops',
+    tag: 'Workshop',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Base Türkiye ortaklığıyla Gebze Teknik Üniversitesi ve Işık Üniversitesi Blockchain topluluklarında Mini App geliştirme süreçleri ve onchain kullanıcı deneyimi üzerine workshoplar gerçekleştirdik.",
+    images: []
+  },
+  {
+    id: '9',
+    title: 'Finext 2025',
+    tag: 'Award',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Top 11 Finalisti. Finans teknolojilerinin geleceğinin şekillendiği Finext 2025 hızlandırma programında, yapay zeka destekli analiz platformumuz WhitepaperIQ ile en iyi girişimler arasına girerek finalist olma başarısı gösterdik.",
+    images: []
+  },
+  {
+    id: '10',
+    title: 'ODTÜ Blockchain Days',
+    tag: 'Summit',
+    location: 'Ankara, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Stratejik partneri olduğumuz etkinlikte, \"Building a Career in Web3\" panelinde yer alarak genç yeteneklere kariyer yolları ve küresel ekosisteme katılım stratejileri üzerine rehberlik ettik.",
+    images: []
+  },
+  {
+    id: '11',
+    title: 'Stellar Hackathon',
+    tag: 'Hackathon',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Pera Palas. Stellar Development Foundation ve Rise In tarafından düzenlenen hackathonda, 2025 Yaz Staj Programı ekibimizle birlikte inovatif fikirler geliştirerek Web3 dünyasına profesyonel bir giriş yaptık.",
+    images: []
+  },
+  {
+    id: '12',
+    title: 'Bioexpo & DeSci',
+    tag: 'Summit',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Sunumu. BIOEXPO 2025 kapsamında, sağlık verilerinde blokzincir teknolojisinin mülkiyet ve güven üzerindeki dönüştürücü etkilerini ele alan stratejik bir sunum gerçekleştirdik.",
+    images: []
+  },
+  {
+    id: '13',
+    title: 'University Code Prix',
+    tag: 'Hackathon',
+    location: 'Konya & Izmir, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Paribu Hub, Kapsül Teknoloji ve Base Türkiye paydaşlığında Konya ve İzmir etaplarında algoritma kodlama maratonunun bir parçası olduk.",
+    images: []
+  },
+  {
+    id: '14',
+    title: 'Units Network Hackathon',
+    tag: 'Hackathon',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Global blockchain inovasyonunun desteklendiği Units Network TR Hackathonu'nda jüri ve mentorluk rolleriyle yer alarak ekosistemin büyümesine katkı sağladık.",
+    images: []
+  },
+  {
+    id: '15',
+    title: 'Web3x3 Streetball',
+    tag: 'Event',
+    location: 'Istanbul, Turkey',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=1200',
+    detail: "Rixos Tersane İstanbul'da düzenlenen bu özel etkinlikte, TriO Blockchain Labs ve Trilema formalarımızla Web3 topluluğunun enerjisini sahaya taşıdık.",
+    images: []
   }
 ];

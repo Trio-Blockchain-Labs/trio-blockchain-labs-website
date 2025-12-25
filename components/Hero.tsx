@@ -86,15 +86,21 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
           className="flex flex-col sm:flex-row gap-6 pt-10 pointer-events-auto"
         >
-          <button className="bg-grey-900 text-white font-bold py-5 px-14 rounded-full text-lg shadow-2xl hover:bg-black transition-all hover:-translate-y-1 active:scale-95">
+          <a 
+            href="#intro"
+            className="bg-grey-900 text-white font-bold py-5 px-14 rounded-full text-lg shadow-2xl hover:bg-black transition-all hover:-translate-y-1 active:scale-95 text-center"
+          >
             Get Started
-          </button>
-          <button className="bg-white text-grey-900 border-2 border-grey-100 font-bold py-5 px-14 rounded-full text-lg shadow-xl hover:bg-grey-50 transition-all hover:-translate-y-1 active:scale-95 flex items-center gap-3">
+          </a>
+          <a 
+            href="#solutions"
+            className="bg-white text-grey-900 border-2 border-grey-100 font-bold py-5 px-14 rounded-full text-lg shadow-xl hover:bg-grey-50 transition-all hover:-translate-y-1 active:scale-95 flex items-center justify-center gap-3"
+          >
             Our Products
             <span className="material-symbols-outlined text-sm">
               arrow_downward
             </span>
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
