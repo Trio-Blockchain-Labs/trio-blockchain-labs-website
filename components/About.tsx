@@ -71,7 +71,7 @@ const About: React.FC = () => {
                 <div>
                   <h4 className="text-4xl md:text-5xl font-black tracking-tighter mb-4">Whitepaper IQ</h4>
                   <p className="text-purple-100/80 text-xl leading-relaxed">
-                    The industry's first AI-driven due diligence platform. We transform complex technical whitepapers and tokenomics data into actionable intelligence for institutional investors and protocol builders.
+                  The industry's first AI-driven due diligence platform tailored to exchange listing workflows. We transform complex whitepapers and tokenomics into audit-ready analyses, highlighting risks, governance quality, and sustainability so your team can make defensible listing decisions.
                   </p>
                 </div>
                 

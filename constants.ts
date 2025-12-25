@@ -33,9 +33,9 @@ export const INDUSTRIES: Industry[] = [
     points: ['Automated Claims', 'Fraud Prevention', 'Parametric Policies']
   },
   {
-    name: 'Healthcare',
-    icon: 'medical_services',
-    points: ['Patient Data Privacy', 'Supply Chain Rx', 'Clinical Trials']
+    name: 'Consulting',
+    icon: 'support_agent',
+    points: ['Strategic Advisory', 'Domain Expertise', 'End-to-end Solutions']
   },
   {
     name: 'Legal',

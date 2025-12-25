@@ -1,13 +1,20 @@
 
 import React, { useEffect, useRef, useState } from 'react';
-import tahsinImage from '../assets/tahsin.png';
+import tahsinv2Image from '../assets/tahsinv2.png';
+import fatihimage from '../assets/fatih.png';
+import sinemimage from '../assets/sinem.png';
+import sudeimage from '../assets/sude.png';
+import azraimage from '../assets/azra.png';
+import keremimage from '../assets/kerem.png';
+import nisaimage from '../assets/nisa.png';
+
 
 const TEAM = [
   {
     id: 1,
     name: "Tahsin",
-    role: "Director",
-    image: tahsinImage,
+    role: "Co-founder & CEO",
+    image: tahsinv2Image,
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
   },
@@ -15,49 +22,49 @@ const TEAM = [
     id: 2,
     name: "Fatih Altınışık",
     role: "Software Engineer",
-    image: null,
+    image: fatihimage,
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
   },
   {
     id: 3,
-    name: "Team Member",
+    name: "Sinem Sevim",
     role: "Designer",
-    image: null,
+    image: sinemimage,
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
   },
   {
     id: 4,
-    name: "Team Member",
-    role: "Manager",
-    image: null,
+    name: "Nisa Nur Keklik",
+    role: "Project Manager",
+    image: nisaimage,
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    twitter: "https://x.com/nnurkeklik?s=11",
   },
   {
     id: 5,
-    name: "Team Member",
-    role: "Manager",
-    image: null,
+    name: "Kerem Kaya",
+    role: "Front-end Developer",
+    image: keremimage,
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
   },
   {
     id: 6,
-    name: "Team Member",
-    role: "Manager",
-    image: null,
+    name: "Azra Ülkebaş",
+    role: "Business Development",
+    image: azraimage,
     linkedin: "https://linkedin.com",
     twitter: "https://twitter.com",
   },
   {
     id: 7,
-    name: "Team Member",
-    role: "Manager",
-    image: null,
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    name: "F. Sude Genç",
+    role: "Software Engineer",
+    image: sudeimage,
+    linkedin: "https://www.linkedin.com/in/sude-genc-2290291b7/",
+    twitter: "https://x.com/SudeGenc8607",
   },
 ];
 
