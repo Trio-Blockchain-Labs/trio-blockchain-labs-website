@@ -61,8 +61,8 @@ const AnimatedSphere = () => {
       }, 1000);
 
       // Schedule next spawn
-      // Random interval between 100ms and 500ms for "busy" network feel
-      const nextDelay = Math.random() * 400 + 100; 
+      // Random interval between 100ms and 250ms for "busy" network feel
+      const nextDelay = Math.random() * 150 + 100; 
       timeoutId = setTimeout(spawnDot, nextDelay);
     };
 
