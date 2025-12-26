@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ scrolled }) => {
 
         <div className="flex items-center gap-4">
           <a 
-            href="#contact" 
+            href="mailto:contact@trioblockchainlabs.com" 
             className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white text-sm font-bold py-2.5 px-6 rounded-full transition-all duration-300 shadow-md shadow-purple-200 hover:shadow-lg active:scale-95"
           >
             Contact Us

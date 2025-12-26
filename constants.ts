@@ -43,9 +43,9 @@ export const INDUSTRIES: Industry[] = [
     points: ['Smart Contracts', 'IP Management', 'Notary Services']
   },
   {
-    name: 'Logistics',
-    icon: 'local_shipping',
-    points: ['Real-time Tracking', 'Provenance', 'Inventory Mgmt']
+    name: 'AI and Blockchain',
+    icon: 'token',
+    points: ['Decentralized AI', 'Predictive Analytics', 'On-chain Data Processing']
   },
   {
     name: 'Real Estate',
@@ -58,9 +58,9 @@ export const INDUSTRIES: Industry[] = [
     points: ['ICO/IDO Strategy', 'MVP Development', 'Vesting Contracts']
   },
   {
-    name: 'Cybersecurity',
-    icon: 'shield_lock',
-    points: ['Penetration Testing', 'Code Audits', 'Monitoring 24/7']
+    name: 'Smart Contract Audits',
+    icon: 'terminal',
+    points: ['Security Assessments', 'Formal Verification', 'Vulnerability Analysis']
   }
 ];
 
