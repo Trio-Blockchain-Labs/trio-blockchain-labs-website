@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useState } from 'react';
-import tahsinv2Image from '../assets/tahsin.png';
+import tahsinv2Image from '../assets/tahsinv2.png';
 import fatihimage from '../assets/fatih.png';
 import sinemimage from '../assets/sinem.png';
 import sudeimage from '../assets/sude.png';
