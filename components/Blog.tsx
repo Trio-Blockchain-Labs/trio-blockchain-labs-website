@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import trioLogoOnly from '../assets/trio-only-logo.svg';
 import researchReport from '../assets/research.jpg';
+import recapReport from '../assets/TriO Blokchain Labs  2025 Recap Raporu .pdf';
 
 const Blog: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'blog' | 'reports'>('blog');
@@ -154,7 +155,12 @@ const Blog: React.FC = () => {
                             />
                             <div className="absolute inset-0 bg-black/10"></div>
                           </div>
-                          <div className="h-[30%] bg-white p-6 flex flex-col justify-center relative z-10">
+                          <a 
+                            href={recapReport}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="h-[30%] bg-white p-6 flex flex-col justify-center relative z-10 cursor-pointer"
+                          >
                             <span className="text-xs font-bold text-purple-600 uppercase tracking-widest mb-2">Annual Review</span>
                             <div className="flex items-center justify-between">
                               <h4 className="text-grey-900 font-black text-2xl tracking-tight">Report 2025</h4>
@@ -162,7 +168,7 @@ const Blog: React.FC = () => {
                                 <span className="material-symbols-outlined text-sm">arrow_forward</span>
                               </div>
                             </div>
-                          </div>
+                          </a>
                           
                           {/* Bottom Indicator */}
                           <div className="absolute bottom-2 left-1/2 -translate-x-1/2 h-1 w-12 bg-grey-200 rounded-full z-20"></div>
