@@ -3,6 +3,8 @@ import React from 'react';
 import Logo from '../assets/trio-only-logo.svg';
 
 const Footer: React.FC = () => {
+
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-grey-950 text-white pt-24 pb-12 px-6 border-t border-grey-900" id="contact">
       <div className="max-w-7xl mx-auto">
@@ -151,7 +153,7 @@ Sarıyer / İstanbul</span>
         </div>
         
         <div className="border-t border-grey-800/50 pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-grey-500">
-          <p>© 2026 TriO Blockchain Labs. All rights reserved.</p>
+          <p>© {currentYear} TriO Blockchain Labs. All rights reserved.</p>
           <div className="flex gap-10">
             <a className="hover:text-purple-400 transition-colors" href="#">Privacy Policy</a>
             <a className="hover:text-purple-400 transition-colors" href="#">Terms of Service</a>
