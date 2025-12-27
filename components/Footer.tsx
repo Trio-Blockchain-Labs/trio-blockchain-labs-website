@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
               <div className="flex items-center gap-4 group cursor-pointer">
                 <span className="material-symbols-outlined text-purple-500 bg-grey-900 p-2 rounded-lg group-hover:bg-purple-600 group-hover:text-white transition-all">location_on</span>
                 <span className="hover:text-white transition-colors">İTÜ Arı Teknokent - ARI Teknokent Proje
-Geliştirme PlanlamaA.Ş.
+Geliştirme Planlama A.Ş.
 Reşitpaşa Mah. Katar Cad.
 Sarıyer / İstanbul</span>
               </div>
